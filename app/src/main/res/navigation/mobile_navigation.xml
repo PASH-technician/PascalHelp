@@ -54,16 +54,10 @@
         tools:layout="@layout/string_type" />
 
     <fragment
-        android:id="@+id/nav_procedure"
+        android:id="@+id/nav_procedure_and_function"
         android:name="com.bypavelshell.mathcreater.pascalhelp.ui.Procedure"
-        android:label="@string/procedure"
-        tools:layout="@layout/procedure" />
-
-    <fragment
-        android:id="@+id/nav_function"
-        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.Function"
-        android:label="@string/function"
-        tools:layout="@layout/function" />
+        android:label="@string/procedure_and_function"
+        tools:layout="@layout/procedure_and_function" />
 
     <fragment
         android:id="@+id/nav_working_with_files_in_pascal"

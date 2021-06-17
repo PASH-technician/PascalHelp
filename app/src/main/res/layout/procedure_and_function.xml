@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.BooleanType">
+    tools:context=".ui.Procedure">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,12 +16,13 @@
             style="@style/title_in_the_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/boolean_type"/>
+            android:text="Процедуры и функции: обзор"/>
 
         <TextView
             style="@style/plain_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Boolean_type_description"/>
+            android:text="@string/Procedures_and_functions_overview_description"/>
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

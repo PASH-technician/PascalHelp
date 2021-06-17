@@ -44,8 +44,7 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_loop_operators,
             R.id.nav_arrays,
             R.id.nav_string_type,
-            R.id.nav_procedure,
-            R.id.nav_function,
+            R.id.nav_procedure_and_function,
             R.id.nav_working_with_files_in_pascal
         ), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
