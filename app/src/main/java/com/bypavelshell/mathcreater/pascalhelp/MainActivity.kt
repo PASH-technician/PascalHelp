@@ -36,7 +36,18 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
+            R.id.nav_system_pascal_abc_net,
+            R.id.nav_simple_data_types,
+            R.id.nav_boolean_type,
+            R.id.nav_selection_operator,
+            R.id.nav_conditional_operator,
+            R.id.nav_loop_operators,
+            R.id.nav_arrays,
+            R.id.nav_string_type,
+            R.id.nav_procedure,
+            R.id.nav_function,
+            R.id.nav_working_with_files_in_pascal
+        ), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

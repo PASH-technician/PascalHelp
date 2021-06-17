@@ -10,4 +10,19 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Темы справочника -->
+    <string name="system_pascal_abc_net">Система PascalABC.NET</string>
+    <string name="simple_data_types">Простые типы данных</string>
+    <string name="boolean_type">Логический тип (BOOLEAN)</string>
+    <string name="conditional_operator">Условный оператор (IF)</string>
+    <string name="selection_operator">Оператор выбора (CASE)</string>
+    <string name="loop_operators">Операторы цикла (WHILE, REPEAT, FOR)</string>
+    <string name="arrays">Массивы (ARRAY)</string>
+    <string name="string_type">Строковый тип (STRING)</string>
+    <string name="procedure">Процедура (PROCEDURE)</string>
+    <string name="function">Функция (FUNCTION)</string>
+    <string name="working_with_files_in_pascal">Работа с файлами в паскале</string>
 </resources>

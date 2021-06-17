@@ -3,23 +3,71 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_system_pascal_abc_net">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_system_pascal_abc_net"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.SystemPascalAbcNet"
+        android:label="@string/system_pascal_abc_net"
+        tools:layout="@layout/system_pascal_abc_net" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_simple_data_types"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.SimpleDataTypes"
+        android:label="@string/simple_data_types"
+        tools:layout="@layout/simple_data_types" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_boolean_type"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.BooleanType"
+        android:label="@string/boolean_type"
+        tools:layout="@layout/boolean_type" />
+
+    <fragment
+        android:id="@+id/nav_conditional_operator"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.ConditionalOperator"
+        android:label="@string/conditional_operator"
+        tools:layout="@layout/conditional_operator" />
+
+    <fragment
+        android:id="@+id/nav_selection_operator"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.SelectStatement"
+        android:label="@string/selection_operator"
+        tools:layout="@layout/selection_operator" />
+
+    <fragment
+        android:id="@+id/nav_loop_operators"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.LoopOperators"
+        android:label="@string/loop_operators"
+        tools:layout="@layout/loop_operators" />
+
+    <fragment
+        android:id="@+id/nav_arrays"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.Arrays"
+        android:label="@string/arrays"
+        tools:layout="@layout/arrays" />
+
+    <fragment
+        android:id="@+id/nav_string_type"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.StringType"
+        android:label="@string/string_type"
+        tools:layout="@layout/string_type" />
+
+    <fragment
+        android:id="@+id/nav_procedure"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.Procedure"
+        android:label="@string/procedure"
+        tools:layout="@layout/procedure" />
+
+    <fragment
+        android:id="@+id/nav_function"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.Function"
+        android:label="@string/function"
+        tools:layout="@layout/function" />
+
+    <fragment
+        android:id="@+id/nav_working_with_files_in_pascal"
+        android:name="com.bypavelshell.mathcreater.pascalhelp.ui.WorkingWithFilesInPascal"
+        android:label="@string/working_with_files_in_pascal"
+        tools:layout="@layout/working_with_files_in_pascal" />
 </navigation>

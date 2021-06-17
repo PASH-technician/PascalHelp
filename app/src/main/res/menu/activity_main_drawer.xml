@@ -5,16 +5,37 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_system_pascal_abc_net"
+            android:title="@string/system_pascal_abc_net" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_simple_data_types"
+            android:title="@string/simple_data_types" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_boolean_type"
+            android:title="@string/boolean_type" />
+        <item
+            android:id="@+id/nav_conditional_operator"
+            android:title="@string/conditional_operator"/>
+        <item
+            android:id="@+id/nav_selection_operator"
+            android:title="@string/selection_operator"/>
+        <item
+            android:id="@+id/nav_loop_operators"
+            android:title="@string/loop_operators"/>
+        <item
+            android:id="@+id/nav_arrays"
+            android:title="@string/arrays"/>
+        <item
+            android:id="@+id/nav_string_type"
+            android:title="@string/string_type"/>
+        <item
+            android:id="@+id/nav_procedure"
+            android:title="@string/procedure"/>
+        <item
+            android:id="@+id/nav_function"
+            android:title="@string/function"/>
+        <item
+            android:id="@+id/nav_working_with_files_in_pascal"
+            android:title="@string/working_with_files_in_pascal"/>
     </group>
 </menu>
